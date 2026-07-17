@@ -1,0 +1,11 @@
+[project]
+name = "brookpay"
+version = "1.4.2"
+description = "Multi-currency wallet and payments backend (accounts, billing, risk, reporting)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "BrookPay Engineering" }]
+
+[tool.setuptools.packages.find]
+include = ["brookpay*"]
